@@ -179,3 +179,40 @@ i{
 }
 
 
+.sub_news{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: pulse 1.5s infinite;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+  
+  @keyframes pulse {
+      0% {
+          color: violet;
+          border-color: violet;
+      }
+      20% {
+          color: indigo;
+          border-color: indigo;
+      }
+      40% {
+          color: blue;
+          border-color: blue;
+      }
+      60% {
+          color: green;
+          border-color: green;
+      }
+      80% {
+          color: yellow;
+          border-color: yellow;
+      }
+      100% {
+          color: red;
+          border-color: red;
+      }
+  }
