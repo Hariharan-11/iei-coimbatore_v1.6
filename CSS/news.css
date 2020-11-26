@@ -329,6 +329,7 @@ padding: 20px;
 width: auto;
 max-width: 70%;
 height: auto;
+
 }
 
 h3{
@@ -337,6 +338,7 @@ h3{
 
 h4{
   text-align: center;
+    padding-top:5px;
 }
 
 .news__content{
